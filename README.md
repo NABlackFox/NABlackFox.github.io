@@ -17,5 +17,5 @@ A software engineering student who dreams of working with embedded systems and I
 **Fun fact:**  
 I can communicate efficiently on a good day... but if something breaks? I speak fluent nonsense. 
 
-Still reading? Wow. You must be truly determined.  
-🚀 **Go check out my site already!**  
+Still reading? Wow. 🚀 **Go check out my site already!** or the whole effort of me struggling with HTML and CSS will be wasted 😆  
+ 
