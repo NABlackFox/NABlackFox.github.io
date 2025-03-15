@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    
+    <title>Kim Nhat Anh | Portfolio</title>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to project CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <div class="overlay"></div>
+
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">My CV</a>
+            <a class="navbar-brand" href="index.html">Kim Nhat Anh</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,12 +31,23 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container text-center mt-5">
-        <h1>Welcome to My CV</h1>
-        <p>Hello! I am <strong>[Your Name]</strong>, a <strong>[Your Profession]</strong>.</p>
+    <div class="container text-center content mt-5">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="lead">Hello! I am <strong>Kim Nhat Anh</strong>, a <strong>Software Engineering Student</strong> at RMIT Vietnam.</p>
+
+        <!-- About Me Section -->
+        <div class="d-flex flex-column align-items-center mt-4">
+            <img src="your-avatar.png" alt="Avatar" class="rounded-circle mb-3" width="150">
+            <p class="text-muted w-75">
+                Passionate about <strong>embedded systems</strong>, <strong>IoT</strong>, and <strong>game development</strong>.  
+                I work with <strong>C, C++</strong>, and <strong>Python</strong>, build projects with <strong>Arduino</strong> and <strong>Raspberry Pi</strong>,  
+                and create <strong>2D pixel art</strong>. I also develop a <strong>Discord bot</strong> using <strong>JavaScript</strong>.
+            </p>
+        </div>
     </div>
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
