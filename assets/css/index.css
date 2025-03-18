@@ -1,0 +1,65 @@
+/* Styles specific to index.html */
+.index-content-box {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 650px;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.index-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.index-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.index-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.index-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+    transition: color 0.3s ease;
+}
+
+.index-text a:hover {
+    color: black;
+}
+
+.index-social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.index-social-icons a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.index-social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.index-social-icons img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

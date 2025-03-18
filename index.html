@@ -3,51 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kim Nhat Anh | Portfolio</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Link to project CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    <div class="overlay"></div>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Kim Nhat Anh</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pages/projects.html">Projects</a></li>
-                </ul>
-            </div>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
     </nav>
-
-    <!-- Main Content -->
-    <div class="container text-center content mt-5">
-        <h1>Welcome to My Portfolio</h1>
-        <p class="lead">Hello! I am <strong>Kim Nhat Anh</strong>, a <strong>Software Engineering Student</strong> at RMIT Vietnam.</p>
-
-        <!-- About Me Section -->
-        <div class="d-flex flex-column align-items-center mt-4">
-            <img src="your-avatar.png" alt="Avatar" class="rounded-circle mb-3" width="150">
-            <p class="text-muted w-75">
-                Passionate about <strong>embedded systems</strong>, <strong>IoT</strong>, and <strong>game development</strong>.  
-                I work with <strong>C, C++</strong>, and <strong>Python</strong>, build projects with <strong>Arduino</strong> and <strong>Raspberry Pi</strong>,  
-                and create <strong>2D pixel art</strong>. I also develop a <strong>Discord bot</strong> using <strong>JavaScript</strong>.
-            </p>
+    <div class="index-content-box">
+        <img src="assets/img/avatar.jpg" alt="Avatar" class="index-avatar">
+        <h1 class="index-heading">Hi, my name is []</h1>
+        <p class="index-text">Also known as {} on GitHub and other platforms. Learn more <a href="pages/about.html">About Me</a> or check out my <a href="pages/projects.html">Projects</a>. Feel free to reach out through my social accounts below.</p>
+        <div class="index-social-icons">
+            <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord"></a>
+            <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub"></a>
+            <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Gmail"></a>
+            <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/steam.svg" alt="Steam"></a>
         </div>
     </div>
-
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
